@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71F788E623658BA300F0D271 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F788E523658BA300F0D271 /* AppDelegate.swift */; };
+		71F788E823658BA300F0D271 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F788E723658BA300F0D271 /* SceneDelegate.swift */; };
+		71F788EA23658BA300F0D271 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F788E923658BA300F0D271 /* ViewController.swift */; };
+		71F788ED23658BA300F0D271 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F788EB23658BA300F0D271 /* Main.storyboard */; };
+		71F788EF23658BA300F0D271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71F788EE23658BA300F0D271 /* Assets.xcassets */; };
+		71F788F223658BA300F0D271 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F788F023658BA300F0D271 /* LaunchScreen.storyboard */; };
+		71F788FD23658BA300F0D271 /* DrinkEatListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F788FC23658BA300F0D271 /* DrinkEatListTests.swift */; };
+		71F7890823658BA300F0D271 /* DrinkEatListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F7890723658BA300F0D271 /* DrinkEatListUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71F788F923658BA300F0D271 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71F788DA23658BA300F0D271 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71F788E123658BA300F0D271;
+			remoteInfo = DrinkEatList;
+		};
+		71F7890423658BA300F0D271 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71F788DA23658BA300F0D271 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71F788E123658BA300F0D271;
+			remoteInfo = DrinkEatList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71F788E223658BA300F0D271 /* DrinkEatList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkEatList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F788E523658BA300F0D271 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71F788E723658BA300F0D271 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		71F788E923658BA300F0D271 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71F788EC23658BA300F0D271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71F788EE23658BA300F0D271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71F788F123658BA300F0D271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71F788F323658BA300F0D271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71F788F823658BA300F0D271 /* DrinkEatListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkEatListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F788FC23658BA300F0D271 /* DrinkEatListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkEatListTests.swift; sourceTree = "<group>"; };
+		71F788FE23658BA300F0D271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71F7890323658BA300F0D271 /* DrinkEatListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkEatListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F7890723658BA300F0D271 /* DrinkEatListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkEatListUITests.swift; sourceTree = "<group>"; };
+		71F7890923658BA300F0D271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71F788DF23658BA300F0D271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F788F523658BA300F0D271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F7890023658BA300F0D271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71F788D923658BA300F0D271 = {
+			isa = PBXGroup;
+			children = (
+				71F788E423658BA300F0D271 /* DrinkEatList */,
+				71F788FB23658BA300F0D271 /* DrinkEatListTests */,
+				71F7890623658BA300F0D271 /* DrinkEatListUITests */,
+				71F788E323658BA300F0D271 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71F788E323658BA300F0D271 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71F788E223658BA300F0D271 /* DrinkEatList.app */,
+				71F788F823658BA300F0D271 /* DrinkEatListTests.xctest */,
+				71F7890323658BA300F0D271 /* DrinkEatListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71F788E423658BA300F0D271 /* DrinkEatList */ = {
+			isa = PBXGroup;
+			children = (
+				71F788E523658BA300F0D271 /* AppDelegate.swift */,
+				71F788E723658BA300F0D271 /* SceneDelegate.swift */,
+				71F788E923658BA300F0D271 /* ViewController.swift */,
+				71F788EB23658BA300F0D271 /* Main.storyboard */,
+				71F788EE23658BA300F0D271 /* Assets.xcassets */,
+				71F788F023658BA300F0D271 /* LaunchScreen.storyboard */,
+				71F788F323658BA300F0D271 /* Info.plist */,
+			);
+			path = DrinkEatList;
+			sourceTree = "<group>";
+		};
+		71F788FB23658BA300F0D271 /* DrinkEatListTests */ = {
+			isa = PBXGroup;
+			children = (
+				71F788FC23658BA300F0D271 /* DrinkEatListTests.swift */,
+				71F788FE23658BA300F0D271 /* Info.plist */,
+			);
+			path = DrinkEatListTests;
+			sourceTree = "<group>";
+		};
+		71F7890623658BA300F0D271 /* DrinkEatListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71F7890723658BA300F0D271 /* DrinkEatListUITests.swift */,
+				71F7890923658BA300F0D271 /* Info.plist */,
+			);
+			path = DrinkEatListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71F788E123658BA300F0D271 /* DrinkEatList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71F7890C23658BA300F0D271 /* Build configuration list for PBXNativeTarget "DrinkEatList" */;
+			buildPhases = (
+				71F788DE23658BA300F0D271 /* Sources */,
+				71F788DF23658BA300F0D271 /* Frameworks */,
+				71F788E023658BA300F0D271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrinkEatList;
+			productName = DrinkEatList;
+			productReference = 71F788E223658BA300F0D271 /* DrinkEatList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71F788F723658BA300F0D271 /* DrinkEatListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71F7890F23658BA300F0D271 /* Build configuration list for PBXNativeTarget "DrinkEatListTests" */;
+			buildPhases = (
+				71F788F423658BA300F0D271 /* Sources */,
+				71F788F523658BA300F0D271 /* Frameworks */,
+				71F788F623658BA300F0D271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71F788FA23658BA300F0D271 /* PBXTargetDependency */,
+			);
+			name = DrinkEatListTests;
+			productName = DrinkEatListTests;
+			productReference = 71F788F823658BA300F0D271 /* DrinkEatListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71F7890223658BA300F0D271 /* DrinkEatListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71F7891223658BA300F0D271 /* Build configuration list for PBXNativeTarget "DrinkEatListUITests" */;
+			buildPhases = (
+				71F788FF23658BA300F0D271 /* Sources */,
+				71F7890023658BA300F0D271 /* Frameworks */,
+				71F7890123658BA300F0D271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71F7890523658BA300F0D271 /* PBXTargetDependency */,
+			);
+			name = DrinkEatListUITests;
+			productName = DrinkEatListUITests;
+			productReference = 71F7890323658BA300F0D271 /* DrinkEatListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71F788DA23658BA300F0D271 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Ray Chow";
+				TargetAttributes = {
+					71F788E123658BA300F0D271 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					71F788F723658BA300F0D271 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 71F788E123658BA300F0D271;
+					};
+					71F7890223658BA300F0D271 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 71F788E123658BA300F0D271;
+					};
+				};
+			};
+			buildConfigurationList = 71F788DD23658BA300F0D271 /* Build configuration list for PBXProject "DrinkEatList" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71F788D923658BA300F0D271;
+			productRefGroup = 71F788E323658BA300F0D271 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71F788E123658BA300F0D271 /* DrinkEatList */,
+				71F788F723658BA300F0D271 /* DrinkEatListTests */,
+				71F7890223658BA300F0D271 /* DrinkEatListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71F788E023658BA300F0D271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F788F223658BA300F0D271 /* LaunchScreen.storyboard in Resources */,
+				71F788EF23658BA300F0D271 /* Assets.xcassets in Resources */,
+				71F788ED23658BA300F0D271 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F788F623658BA300F0D271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F7890123658BA300F0D271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71F788DE23658BA300F0D271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F788EA23658BA300F0D271 /* ViewController.swift in Sources */,
+				71F788E623658BA300F0D271 /* AppDelegate.swift in Sources */,
+				71F788E823658BA300F0D271 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F788F423658BA300F0D271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F788FD23658BA300F0D271 /* DrinkEatListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F788FF23658BA300F0D271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F7890823658BA300F0D271 /* DrinkEatListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71F788FA23658BA300F0D271 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71F788E123658BA300F0D271 /* DrinkEatList */;
+			targetProxy = 71F788F923658BA300F0D271 /* PBXContainerItemProxy */;
+		};
+		71F7890523658BA300F0D271 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71F788E123658BA300F0D271 /* DrinkEatList */;
+			targetProxy = 71F7890423658BA300F0D271 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71F788EB23658BA300F0D271 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71F788EC23658BA300F0D271 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71F788F023658BA300F0D271 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71F788F123658BA300F0D271 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71F7890A23658BA300F0D271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71F7890B23658BA300F0D271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71F7890D23658BA300F0D271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B44JQ4HGJ4;
+				INFOPLIST_FILE = DrinkEatList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raychow.DrinkEatList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71F7890E23658BA300F0D271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B44JQ4HGJ4;
+				INFOPLIST_FILE = DrinkEatList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raychow.DrinkEatList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71F7891023658BA300F0D271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B44JQ4HGJ4;
+				INFOPLIST_FILE = DrinkEatListTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raychow.DrinkEatListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrinkEatList.app/DrinkEatList";
+			};
+			name = Debug;
+		};
+		71F7891123658BA300F0D271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B44JQ4HGJ4;
+				INFOPLIST_FILE = DrinkEatListTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raychow.DrinkEatListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrinkEatList.app/DrinkEatList";
+			};
+			name = Release;
+		};
+		71F7891323658BA300F0D271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B44JQ4HGJ4;
+				INFOPLIST_FILE = DrinkEatListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raychow.DrinkEatListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DrinkEatList;
+			};
+			name = Debug;
+		};
+		71F7891423658BA300F0D271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B44JQ4HGJ4;
+				INFOPLIST_FILE = DrinkEatListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raychow.DrinkEatListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DrinkEatList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71F788DD23658BA300F0D271 /* Build configuration list for PBXProject "DrinkEatList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F7890A23658BA300F0D271 /* Debug */,
+				71F7890B23658BA300F0D271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71F7890C23658BA300F0D271 /* Build configuration list for PBXNativeTarget "DrinkEatList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F7890D23658BA300F0D271 /* Debug */,
+				71F7890E23658BA300F0D271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71F7890F23658BA300F0D271 /* Build configuration list for PBXNativeTarget "DrinkEatListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F7891023658BA300F0D271 /* Debug */,
+				71F7891123658BA300F0D271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71F7891223658BA300F0D271 /* Build configuration list for PBXNativeTarget "DrinkEatListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F7891323658BA300F0D271 /* Debug */,
+				71F7891423658BA300F0D271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71F788DA23658BA300F0D271 /* Project object */;
+}
